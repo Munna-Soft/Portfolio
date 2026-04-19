@@ -2,44 +2,39 @@
 ## GitAds Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=munna-soft/portfolio@github)](https://gitads.dev/v1/ad-track?source=munna-soft/portfolio@github)
 
-<!-- 💠 PREMIUM GITHUB PROFILE README FOR MUNNA (MASTER MIND DEVELOPER) 💠 -->
+<!-- Modern Stats Cards -->
+<div align="center">
+    <h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Munna+MasterMind!;" />
+  </h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=435&lines=🥇FULL+STACK+PHP/LARAVEL+DEVELOPER;🚀RENTAL+SMM+PANEL+PROVIDER;🤖AUTOMATION+BOT/TOOLS+DEVELOPER;🎓SOCIAL+MEDIA+SERVICE+PROVIDER;💻AlWAYS+LEARNING+and+IMPROVING!" />
+</div>
+<div align="center" style="margin: 20px 0">
+  <a href="https://github.com/munna-soft?tab=followers">
+    <img height="28" src="https://custom-icon-badges.demolab.com/github/followers/munna-soft?style=for-the-badge&color=00B2FF&labelColor=0D1117&logo=person-add&label=Followers&logoColor=00FF95"/>
+  </a>
+  &nbsp;
+    <a href="https://github.com/munna-soft?tab=repositories&sort=stargazers">
+    <img height="28" src="https://custom-icon-badges.demolab.com/github/stars/munna-soft?style=for-the-badge&color=00B2FF&labelColor=0D1117&logo=star&logoColor=00FF95"/>
+  </a>
+  &nbsp;
+  <img height="28" src="https://komarev.com/ghpvc/?username=munna-soft&label=Profile%20Views&color=00B2FF&style=for-the-badge&labelColor=0D1117" alt="Profile Views"/>
+</div>
 
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=10000&color=FF5733&center=true&vCenter=true&width=700&lines=👋+Hi%2C+I'm+Munna+MasterMind;Automation+Bot/Tools+Developer;Rental+SMM+Panel+Provider;Always+Learning+%26+Building+Community+🔥" />
-</p>
-
----
-
-# <p align="center">🚀 Full Stack Python Developer 👨‍💻</p>
-<p align="center">Python • Automation • API Integrations • PHP • Laravel • FFmpeg Batch Expert</p>
-
----
-
-<img src="https://i.imgur.com/dBaSKWF.gif" width="100%" height="75">
+<img src="assets/RGB_Light.gif" width="100%" height="75">
 
 <h3 align="center">
     👉 <a href="https://munna-soft.github.io/Portfolio" target="_blank">See Live Portfolio</a> 🚀
 </h3>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" width="100%" height="75">
-
-
----
+<img src="assets/RGB_Light.gif" width="100%" height="75">
 
 # ❤️ Support My Open‑Source Work  
 <div align="center">
 
 If my project help you, please ⭐ star my repos —  
-It motivates me to build **more awesome systems**! & consider buying me a coffee via **Binance Pay**:  
-
-[![Binance Pay](https://img.shields.io/badge/Binance%20Pay-788233021-fcd535?style=for-the-badge&logo=binance&logoColor=white)](https://github.com/Munna-Soft)  
-
-🚀 Every contribution keeps me motivated and helps me improve my project! 🔥
+It motivates me to build **more awesome systems**!
 
 </div>
-
----
 
 <picture>
   <source

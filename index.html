@@ -4,102 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Munna MasterMind | Automation Bot/Tools Developer & Rental SMM Panel Provider</title>
-    
-    <meta name="description" content="Munna MasterMind's official portfolio - Automation Bot/Tools Developer, Rental SMM Panel Provider, Automation Tools Developer, Social Media Service Provider & Tech Innovator.">
-    <meta name="author" content="Munna MasterMind">
-    <meta name="keywords" content="Automation Bot/Tools Developer, Rental SMM Panel Provider, Automation Tools Developer, Web Development, Software Solutions, Social Media Service Provider, Tech Innovator, Munna MasterMind">
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Munna MasterMind | Automation Bot/Tools Developer & Rental SMM Panel Provider">
-    <meta property="og:description" content="Professional Automation Bot/Tools Developer & Rental SMM Panel Provider | Innovative web development projects and Software solutions">
-    <meta property="og:image" content="assets/images/profile/og-image.jpg">
-    <meta property="og:url" content="https://_blank">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&family=Fira+Code:wght@500&display=swap">
+    <link rel="icon" type="image/png" href="assets/Munna.jpg">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&family=Fira+Code:wght@500&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body>
-    <div id="preloader">
-        <div id="boot-screen">
-            <div id="boot-lines"></div>
-            <span id="boot-cursor">_</span>
-        </div>
+    <!-- ========== ANIMATED BACKGROUND ========== -->
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
     </div>
     
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
+    <!-- ========== CUSTOM CURSOR ========== -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="custom-cursor-dot" id="customCursorDot"></div>
 
-    <!--Header Start-->
-    <header class="main-header">
-        <a href="#home" class="header-logo">Munna MasterMind</a>
-        <div class="header-controls">
-            
-            <label class="theme-switch" for="theme-toggle-checkbox" aria-label="Toggle Theme">
-                <input type="checkbox" id="theme-toggle-checkbox">
-                <span class="switch-slider">
-                    <i class="fas fa-sun sun-icon"></i>
-                    <i class="fas fa-moon moon-icon"></i>
-                </span>
-            </label>
-
-            <button class="hamburger-btn" id="menu-toggle" aria-label="Open menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <!-- ========== HEADER / NAVBAR ========== -->
+    <header>
+        <nav>
+            <a href="#hero" class="logo-group">
+                <div class="logo-text">
+                    <h1>MasterMind</h1>
+                    <p>Automation & SaaS Lab</p>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
-        </div>
+        </nav>
     </header>
-    <!--Header End-->
 
-    <nav class="top-dropdown-menu" id="top-dropdown-menu">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#contact" class="nav-link">Contact</a>
-    </nav>
-
-    <button class="music-toggle-btn" id="music-toggle" aria-label="Toggle Music">
-        <i class="fas fa-music" id="music-icon"></i>
-    </button>
-
-    <audio id="bgm" loop>
-        <source src="Assets/Surah_Mulk.mp3" type="audio/mp3">
-    </audio>
-    
-    <a href="#home" class="back-to-top-btn" id="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!--Hero Section Start-->
-    <main class="container">
-
-    <section id="home" class="hero-section">
-        <div class="hero-bg-image"></div>
-        <div class="hero-content">
-            <img src="Assets/Munna.jpg" alt="Logo Images" class="profile-img gsap-reveal-up" loading="lazy">
-            <h1 class="hero-title gsap-reveal-up" data-delay="0.2">
-                Munna MasterMind
-            </h1>
-            <h3 class="hero-tagline gsap-reveal-up" data-delay="0.4">
-                Automation Bot/Tools Developer & Rental SMM Panel Provider.
-            </h3>
-            <p class="hero-subtitle gsap-reveal-up" data-delay="0.6">
-                Build Smarter, Automate Faster. Let's Create Something Extraordinary.
-            </p>
-            <div class="hero-cta gsap-reveal-up" data-delay="0.8">
-                <a href="#projects" class="cta-btn primary">View My Work</a>
-                <a href="#contact" class="cta-btn secondary">Get In Touch</a>
+    <!-- ========== HERO SECTION ========== -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <span class="hero-label">Automation Expert</span>
+                    <h1 class="hero-title">Transforming complex challenges into elegant automated solutions.</h1>
+                    <p class="hero-subtitle">Specializing in web scraping, ML integration, computer vision, and system-level programming with 5+ years of production experience serving 35k+ users.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Client Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="dashboard-card">
+                        <div class="dashboard-header">
+                            <div class="dashboard-dot"></div>
+                            <div class="dashboard-dot"></div>
+                            <div class="dashboard-dot"></div>
+                        </div>
+                        <div class="dashboard-pills">
+                            <span class="pill">Web Scraping</span>
+                            <span class="pill">PyQt5 GUI</span>
+                            <span class="pill">APIs</span>
+                            <span class="pill">FFmpeg</span>
+                            <span class="pill">Streamlit</span>
+                        </div>
+                        <div class="dashboard-code">
+                            <div class="line">    <span class="keyword">def</span> <span class="string">automate_workflow</span>():</div>
+                            <div class="line">    <span class="keyword">scraper</span> = <span class="string">WebScraper</span>()</div>
+                            <div class="line">    <span class="keyword">data</span> = scraper.<span class="string">extract</span>()</div>
+                            <div class="line">    <span class="comment"># Processing 35K+ records...</span></div>
+                            <div class="line">    <span class="keyword">return</span> <span class="string">success</span></div>
+                        </div>
+                    </div>
+                    <div class="floating-chip">⚡ Fast</div>
+                    <div class="floating-chip">🔒 Secure</div>
+                    <div class="floating-chip">🚀 Scalable</div>
+                </div>
             </div>
         </div>
     </section>
-    <!--Hero Section End-->
 
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container" style="padding-top: 0;">
     <!--Skills Section Start-->
         <section id="skills" class="section-flat">
             <h2 class="gsap-reveal-left">Technical Skills</h2>
@@ -196,9 +193,9 @@
             <div class="projects-grid" id="projects-container">
                 <!-- Projects will be loaded dynamically from projects.js -->
             </div>
-            <div class="see-more-container" style="text-align: center; margin-top: 2rem;">
+            <!-- <div class="see-more-container" style="text-align: center; margin-top: 2rem;">
                 <button id="see-more-btn" class="cta-btn secondary">See More Projects</button>
-            </div>
+            </div> -->
         </section>
     <!--Projects Section End-->
 
@@ -282,7 +279,7 @@
                     </div>
                 </div>
                 <div class="about-image gsap-reveal-left">
-                    <img src="Assets/Munna.jpg" alt="About Munna MasterMind" loading="lazy">
+                    <img src="assets/Munna.jpg" alt="About Munna MasterMind" loading="lazy">
                 </div>
             </div>
         </section>
@@ -349,15 +346,12 @@
     <!--Footer End-->
     </main>
 
-    <script src="Js/animations.js"></script>
-    <script src="Js/cursor.js"></script>
-    <script src="Js/main.js"></script> 
-    <script src="Js/preloader.js"></script>
-    <script src="Js/projects.js"></script>
+    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
-<!-- End of Code by Munna MasterMind -->
