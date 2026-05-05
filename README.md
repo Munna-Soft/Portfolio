@@ -7,7 +7,7 @@
     <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Munna+MasterMind!;" />
   </h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=435&lines=🥇+FULL+STACK+PHP/LARAVEL+DEVELOPER;🚀+RENTAL+SMM+PANEL+PROVIDER;🤖+AUTOMATION+BOT/TOOLS+DEVELOPER;🎓+SOCIAL+MEDIA+SERVICE+PROVIDER;💻+AlWAYS+LEARNING+and+IMPROVING!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=435&lines=FULL+STACK+PHP/LARAVEL+DEVELOPER;RENTAL+SMM+PANEL+PROVIDER;AUTOMATION+BOT/TOOLS+DEVELOPER;SOCIAL+MEDIA+SERVICE+PROVIDER;AlWAYS+LEARNING+and+IMPROVING!" />
 </div>
 <div align="center" style="margin: 20px 0">
   <a href="https://github.com/munna-soft?tab=followers">
